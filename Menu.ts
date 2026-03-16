@@ -15,17 +15,18 @@ export function main(){
     let nome, familiaOlfativa, categoria, linha: string;
     const tiposPerfumes = ["Perfumaria", "XYZ Casa - Perfumes para Casa"];
 
-    let perfumaria1: Perfumaria = new Perfumaria(perfumes.gerarCodigo(), "La Vie Est Belle", 100, "Amadeirado", 1, "Feminino");
-    perfumes.cadastrar(perfumaria1);
+    //EXEMPLOS DE PERFUMES:
+    // let perfumaria1: Perfumaria = new Perfumaria(perfumes.gerarCodigo(), "La Vie Est Belle", 100, "Amadeirado", 1, "Feminino");
+    // perfumes.cadastrar(perfumaria1);
 
-    let perfumaria2: Perfumaria = new Perfumaria(perfumes.gerarCodigo(), "Coffee Man", 100, "Doce", 1, "Masculino");
-    perfumes.cadastrar(perfumaria2);
+    // let perfumaria2: Perfumaria = new Perfumaria(perfumes.gerarCodigo(), "Coffee Man", 100, "Doce", 1, "Masculino");
+    // perfumes.cadastrar(perfumaria2);
 
-    let perfumeCasa1: XyzCasa = new XyzCasa(perfumes.gerarCodigo(), "Perfume Casa Sublime 01", 120, "Floral", 2, "Sublime");
-    perfumes.cadastrar(perfumeCasa1);
+    // let perfumeCasa1: XyzCasa = new XyzCasa(perfumes.gerarCodigo(), "Perfume Casa Sublime 01", 120, "Floral", 2, "Sublime");
+    // perfumes.cadastrar(perfumeCasa1);
 
-    let perfumeCasa2: XyzCasa = new XyzCasa(perfumes.gerarCodigo(), "Perfume Casa Leveza 07", 120, "Citrico", 2, "Leveza");
-    perfumes.cadastrar(perfumeCasa2);
+    // let perfumeCasa2: XyzCasa = new XyzCasa(perfumes.gerarCodigo(), "Perfume Casa Leveza 07", 120, "Citrico", 2, "Leveza");
+    // perfumes.cadastrar(perfumeCasa2);
 
 
     while (true) {
