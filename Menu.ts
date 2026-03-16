@@ -1,8 +1,18 @@
 import readlinesync = require("readline-sync");
 import { colors } from "./src/util/Colors";
+import { Perfume } from "./src/model/Perfume";
+import { Perfumaria } from "./src/model/Perfumaria";
+import { XyzCasa } from "./src/model/XyzCasa";
 
 export function main(){
     let opcao: number;
+
+    const perfumaria: Perfumaria = new Perfumaria(1, "La Vie Est Belle", 100, "Amadeirado", 1, "Feminino");
+    perfumaria.visualizar();
+
+    const perfumeCasa: XyzCasa = new XyzCasa(2, "Perfume Casa Sublime 01", 120, "Floral", 2, "Sublime");
+    perfumeCasa.visualizar();
+
 
     while (true) {
 
